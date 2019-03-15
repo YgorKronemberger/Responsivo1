@@ -3,11 +3,12 @@ body{
     font-family: tahoma;
     color: #666; /* Comentário */
 }
-
+    
 h1, h2{
     margin: 0;
     font-size: 20px;
     color: #333;
+  
 } 
 
 h2{
@@ -56,19 +57,22 @@ h2{
 #texto-principal{
     width: 60%;
     color: #666;
+      font-family: tahoma;
 }
 
 #texto-secundario{
     width: 35%;
+      font-family: tahoma;
 }
 
 #texto-secundario p{
-    font-style: italic;
-    color: #999;
+    font-style: none;
+    color: #000;
 }
 
 #texto-principal, #texto-secundario{
     font-size: 16px;
+    color: #000;
 }
 
 #rodape{
@@ -79,6 +83,9 @@ h2{
     padding: 30px 0;
     color: #999;
 }
+
+
+/* Responsividade */
 
 
 
